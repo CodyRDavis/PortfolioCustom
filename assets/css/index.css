@@ -1,3 +1,7 @@
+.content{
+    align-items: center;
+    justify-content: center;
+}
 .logo-box{
     text-align: center;
     color: white;
