@@ -1,0 +1,15 @@
+.profile-picture{
+    padding-top: 16vh;
+    width: 50%;
+    max-width: 400px;
+    height: 50%;
+    border-radius: 4px;
+}
+
+.social-icon{
+    height: 48px;
+    margin: 0px 24px 48px 24px;
+    border-radius: 4px;
+    cursor: pointer;
+
+}

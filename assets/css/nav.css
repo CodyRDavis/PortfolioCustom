@@ -5,7 +5,7 @@ html, body, .wrapper {
     height: 100%;
 }
 body{
-    background-image: url("../images/tom-grimbert-601212-unsplash.jpg");
+    background-image: url("../images/artem-bali-581945-unsplash.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -98,10 +98,26 @@ nav{
     margin-bottom: 16px;
     background: #ffffffbb;
 }
-
-
 .row:after {
     content: "";
     clear: both;
     display: table;
+}
+.d-block {
+    display:block;
+}
+.d-flex {
+    display: flex;
+}
+.justify-center{
+    justify-content: center;
+}
+.align-center{
+    align-items: center;
+}
+.mx-auto{
+    margin: 0 auto;
+}
+.bg-clear{
+    background-color: transparent;
 }
