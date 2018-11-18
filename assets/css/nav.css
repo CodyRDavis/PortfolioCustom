@@ -5,11 +5,17 @@ html, body, .wrapper {
     height: 100%;
 }
 body{
-    background-image: url("../images/casey-horner-1125611-unsplash.jpg");
+    background-image: url("../images/tom-grimbert-601212-unsplash.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    font-size: 2rem;
+}
+h2{
+    font-size: 1.5rem;
 }
 .wrapper{
     display: flex;
@@ -48,7 +54,7 @@ nav{
     padding: 12px 0px;
     border-radius: 4px;
     margin: 4px;
-    transition: box-shadow .5s;
+    transition: box-shadow .25s;
 }
 .menu-box a:hover{
     box-shadow: 0px 0px 15px #ff7300;
@@ -57,11 +63,13 @@ nav{
 @media (max-width: 350px){
     .menu-box {
         flex-direction: column;
-        padding: 8px;
+        padding: 4px;
         text-align: center;
+        width: 100%;
     }
     .menu-box a{
         width: 100%;
+        margin: 4px 0px;
     }
 }
 

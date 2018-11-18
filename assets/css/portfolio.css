@@ -16,3 +16,17 @@
     height: auto;
     margin: auto;
 }
+
+.portfolio-card h2{
+    padding: 4px;
+    border-bottom: 1px solid #111111aa;
+    margin-bottom: 4px;
+}
+.portfolio-card-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.portfolio-card p{
+    margin: 4px;
+}
